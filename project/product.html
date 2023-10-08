@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name = "description"
+   content="this is a ecommerce project"/>
+   
+   
+    <title>BAG STORE</title>
+   <!- font aweseome cdn ...->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" >
+
+    
+
+    <link rel="stylesheet" href="style.css"/>
+    
+</head>
+<body>
+  <-!  navbar starts here->
+
+  <i class="fas fa-bars fa-2x" id="menu-icon"></i>
+    <nav id="menu" class="hidden">
+        <ul class="nav-upper
+         flex-space-around">
+            <li class="nav_list">
+                <a href="index.html"
+                class="nav_link">HOME</a>
+
+            </li>
+            <li class="nav_list">
+                <a href="register.html"
+                class="nav_link">Register</a>
+
+            </li>
+            <li class="nav_list">
+                <a href="login.html"
+                class="nav_link">Login</a>
+
+            </li>
+            <li class="nav_list">
+                <a href="/index.html"
+                class="nav_link">Logout</a>
+
+            </li>
+            <li class="nav_list">
+                <a href="profile.html"
+                class="nav_link">Contact</a>
+
+            </li>
+            <li class="nav_list">
+                <a href="profile.html"class="nav_link">
+                    <img class ="profile-icon" src="1.jpg.jpg" alt="profile icon"/>
+
+                </a>
+                
+
+            </li>
+        </ul>
+        <ul class:nav-lower 
+        flex-space-around">
+            <li class="nav_list">
+                <a href="/index.html"class="nav_brand 
+                nav_link">BAG STORE</a>
+            </li>
+            <li class="nav_list">
+                <a href="/cart.html"class="nav_link">
+                    <span><i class="fa-solid fa-cart-shopping"></i> </span>
+                    Cart 2 products-$200
+                </a>
+            </li>
+        </ul>
+
+    </nav>
+    
+    <!-!navbar ends here->
+
+    <main class="flex-center">
+        <div class="main-content">
+            <section class="product-details flex-center">
+               <div class="product_details-left flex-center">
+                <img src="2.jpeg.jpeg" alt="product 1"/>
+               </div>
+               <div class="product_details-right flex-center">
+                <img src="2.jpeg.jpeg" alt="product 1"/>
+               </div>
+               <h3 class="product_name">gucci</h3>
+               <p>
+                   <span class="dot green"></span>
+                   <span class="dot black"></span>
+                   <span class="dot red"></span>
+               </p>
+               <p class="product description">
+                <strong> description: </strong>
+                   Gucci is one of the most iconic and well-known luxury personal goods brands in the world. 
+                   Gucci offers a range of different luxury fashion products.Gucci handbags come in a 
+                   range of sizes and styles. They are small or medium-sized, made of leather, canvas, and suede, and feature 
+                   zippered compartments and metal locks or magnetic snap closures. Some have adjustable straps, usually made of leather.
+               </p>
+               <h4 class="product_category">Category: Gucci</h4>
+               <h4 class="product price">Price: $225</h4>
+               <p class="product rating">Rating:4.5/5</p>
+               <button class="btn product-button">Add to cart</button>
+               <button class="btn product-button">Back to shopping </button>
+
+            </section>
+      
+    </main>
+<!-footer strats here->
+<footer class="footer flex-space-around">
+    <div class="flex-space-around">
+        <label for ="subscribe"> Subscribe to our store</label>
+        <input type="email"
+        id="subscribe"
+        name="Subscribe"
+        class="footer_input"
+        placeholder="your Email Address"/>
+        <button class="btn btn-subscribe">subscribe</button>
+    </div>
+    <div>
+        <p>copyright 2023 all right reserve</p>
+
+        
+    </div>
+
+</footer>
+
+<!-footer ends here->
+<script src="./scripts/index.js"></script>
+</body>
+</html>
